@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Customer {
     private int money;
     private Scanner scan;
-    private final int MAX_TICKET = 10;
-    private final String VALIDATE_LOTTO_LENGTH = "6개의 숫자를 입력해야합니다";
+    private final static int MAX_TICKET = 10;
+    private final static String VALIDATE_LOTTO_LENGTH = "6개의 숫자를 입력해야합니다";
 
     public Customer() {
         this.money = (int) (Math.random()*100000);

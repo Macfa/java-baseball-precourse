@@ -35,13 +35,13 @@ public class LottoProcess {
         int[] LottoNumber = scam.getLottoNumber();
 
         // check a Lotto Number
-        for (LottoTicket ticket : tickets) {
-            int[] ticket = ticket.getLottoVO().getNumber();
-            customer.checkLottoTicket(ticket);
-
-            System.out.println("test = " + test);
-            System.out.println("result : " +result);
-        }
+//        for (LottoTicket ticket : tickets) {
+//            int[] ticket = ticket.getLottoVO().getNumber();
+//            customer.checkLottoTicket(ticket);
+//
+//            System.out.println("test = " + test);
+//            System.out.println("result : " +result);
+//        }
 
     }
 }
