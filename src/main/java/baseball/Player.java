@@ -6,11 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
-    List<Integer> answer;
+    private List<Integer> answer;
 
-    public Player() {
-//        this.answer = new ArrayList<>();
-    }
     public List<Integer> getNumber() {
         this.answer = new ArrayList<>();
 

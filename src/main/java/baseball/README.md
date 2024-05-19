@@ -1,22 +1,5 @@
 # BaseBall Game
 
-* Application
-  * Main
-* Game ( 플레이어 컴퓨터 초기화 )
-  * properties
-  * methods
-    * void start()
-* Player
-  * properties
-    * String inputString
-  * methods
-    * 숫자 입력
-* Computer
-  * properties
-    * List<Integer> question
-  * methods
-    * 랜덤 숫자 초기화 
-
 ## Process
 1. 게임을 시작한다
 2. 컴퓨터가 랜덤숫자를 생성한다
